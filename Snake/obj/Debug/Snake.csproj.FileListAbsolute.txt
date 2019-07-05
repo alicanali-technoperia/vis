@@ -35,3 +35,13 @@ F:\Finki\visProj\snake\Snake-master\Snake\Snake\Snake\Snake\obj\Debug\Snake.cspr
 F:\Finki\visProj\snake\Snake-master\Snake\Snake\Snake\Snake\obj\Debug\Snake.csproj.CoreCompileInputs.cache
 F:\Finki\visProj\snake\Snake-master\Snake\Snake\Snake\Snake\obj\Debug\Snake.exe
 F:\Finki\visProj\snake\Snake-master\Snake\Snake\Snake\Snake\obj\Debug\Snake.pdb
+F:\Finki\visProj\visproj\Snake\bin\Debug\Snake.exe.config
+F:\Finki\visProj\visproj\Snake\bin\Debug\Snake.exe
+F:\Finki\visProj\visproj\Snake\bin\Debug\Snake.pdb
+F:\Finki\visProj\visproj\Snake\obj\Debug\Snake.csprojAssemblyReference.cache
+F:\Finki\visProj\visproj\Snake\obj\Debug\Snake.SnakeGame.resources
+F:\Finki\visProj\visproj\Snake\obj\Debug\Snake.Properties.Resources.resources
+F:\Finki\visProj\visproj\Snake\obj\Debug\Snake.csproj.GenerateResource.cache
+F:\Finki\visProj\visproj\Snake\obj\Debug\Snake.csproj.CoreCompileInputs.cache
+F:\Finki\visProj\visproj\Snake\obj\Debug\Snake.exe
+F:\Finki\visProj\visproj\Snake\obj\Debug\Snake.pdb

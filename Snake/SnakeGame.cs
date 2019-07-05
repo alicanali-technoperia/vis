@@ -18,9 +18,9 @@ namespace Snake
     {
         private int posX;
         private int posY;
-        private const int xMax = 69;
+        private const int xMax = 59;
         private const int xMin = 0;
-        private const int yMax = 46;
+        private const int yMax = 49;
         private const int yMin = 0;
 
 

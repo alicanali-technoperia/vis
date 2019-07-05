@@ -43,9 +43,9 @@
             // 
             // startButton
             // 
-            this.startButton.Location = new System.Drawing.Point(312, 537);
+            this.startButton.Location = new System.Drawing.Point(682, 471);
             this.startButton.Name = "startButton";
-            this.startButton.Size = new System.Drawing.Size(182, 23);
+            this.startButton.Size = new System.Drawing.Size(109, 42);
             this.startButton.TabIndex = 0;
             this.startButton.Text = "Start";
             this.startButton.UseVisualStyleBackColor = true;
@@ -53,10 +53,11 @@
             // 
             // gameArea
             // 
+            this.gameArea.BackColor = System.Drawing.Color.LavenderBlush;
             this.gameArea.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.gameArea.Location = new System.Drawing.Point(12, 12);
             this.gameArea.Name = "gameArea";
-            this.gameArea.Size = new System.Drawing.Size(770, 517);
+            this.gameArea.Size = new System.Drawing.Size(664, 548);
             this.gameArea.TabIndex = 1;
             // 
             // gameTimer
@@ -65,12 +66,13 @@
             // 
             // resetButton
             // 
-            this.resetButton.Location = new System.Drawing.Point(12, 537);
+            this.resetButton.BackColor = System.Drawing.Color.DarkKhaki;
+            this.resetButton.Location = new System.Drawing.Point(682, 370);
             this.resetButton.Name = "resetButton";
-            this.resetButton.Size = new System.Drawing.Size(75, 23);
+            this.resetButton.Size = new System.Drawing.Size(109, 23);
             this.resetButton.TabIndex = 2;
             this.resetButton.Text = "New Game";
-            this.resetButton.UseVisualStyleBackColor = true;
+            this.resetButton.UseVisualStyleBackColor = false;
             this.resetButton.Click += new System.EventHandler(this.resetButton_Click);
             // 
             // speedSelection
@@ -84,16 +86,17 @@
             "4 - Hard",
             "5 - Very Hard",
             "6 - İmpossible"});
-            this.speedSelection.Location = new System.Drawing.Point(93, 538);
+            this.speedSelection.Location = new System.Drawing.Point(682, 414);
             this.speedSelection.Name = "speedSelection";
-            this.speedSelection.Size = new System.Drawing.Size(121, 21);
+            this.speedSelection.Size = new System.Drawing.Size(109, 21);
             this.speedSelection.TabIndex = 3;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(535, 540);
+            this.label1.Location = new System.Drawing.Point(692, 46);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(53, 16);
             this.label1.TabIndex = 4;
@@ -102,8 +105,9 @@
             // scoreLabel
             // 
             this.scoreLabel.AutoSize = true;
+            this.scoreLabel.BackColor = System.Drawing.Color.White;
             this.scoreLabel.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.scoreLabel.Location = new System.Drawing.Point(594, 540);
+            this.scoreLabel.Location = new System.Drawing.Point(767, 46);
             this.scoreLabel.Name = "scoreLabel";
             this.scoreLabel.Size = new System.Drawing.Size(15, 16);
             this.scoreLabel.TabIndex = 5;
@@ -112,18 +116,20 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.White;
             this.label3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(663, 540);
+            this.label3.Location = new System.Drawing.Point(692, 12);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(82, 16);
+            this.label3.Size = new System.Drawing.Size(54, 16);
             this.label3.TabIndex = 6;
-            this.label3.Text = "Eaten food : ";
+            this.label3.Text = "Eaten : ";
             // 
             // baitLabel
             // 
             this.baitLabel.AutoSize = true;
+            this.baitLabel.BackColor = System.Drawing.Color.White;
             this.baitLabel.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.baitLabel.Location = new System.Drawing.Point(751, 539);
+            this.baitLabel.Location = new System.Drawing.Point(767, 12);
             this.baitLabel.Name = "baitLabel";
             this.baitLabel.Size = new System.Drawing.Size(15, 16);
             this.baitLabel.TabIndex = 7;
@@ -133,6 +139,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(794, 572);
             this.Controls.Add(this.baitLabel);
             this.Controls.Add(this.label3);
